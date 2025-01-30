@@ -35,10 +35,11 @@ const userSchema = new mongoose.Schema({
   pdf_metadata: [
     {
       filename: String,
-      content: String, // Store extracted text (first 1000 chars for reference)
+      content: String, // Extracted text (first 1000 chars)
       timestamp: { type: Date, default: Date.now },
     },
   ],
+  
   
 });
 

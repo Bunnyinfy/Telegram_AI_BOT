@@ -29,10 +29,10 @@ const handleChat = async (ctx) => {
     // Auto-follow-up logic
     if (userInput.toLowerCase().includes('weather')) {
       ctx.reply('🌦️ Would you like to know the weather for tomorrow as well?');
-      ctx.session.waitingForFollowUp = true; // Set follow-up state
+      ctx.session.waitingForFollowUp = true; 
     } else if (userInput.toLowerCase().includes('news')) {
       ctx.reply('📰 Would you like to see the latest news headlines?');
-      ctx.session.waitingForFollowUp = true; // Set follow-up state
+      ctx.session.waitingForFollowUp = true; 
     }
 
   } catch (error) {
@@ -48,7 +48,8 @@ const handleFollowUp = async (ctx) => {
     if (ctx.session.waitingForFollowUp) {
       if (userInput.toLowerCase().includes('yes')) {
         // Handle follow-up action
-        if (ctx.session.followUpType === 'weather') {
+        if (ctx.session.followUpType === 'weather') 
+          {
           const response = await generateResponse('What is the weather forecast for tomorrow?');
           ctx.reply(response);
         } else if (ctx.session.followUpType === 'news') {
@@ -59,7 +60,6 @@ const handleFollowUp = async (ctx) => {
         ctx.reply('Okay, let me know if you need anything else! 😊');
       }
 
-      // Reset follow-up state
       ctx.session.waitingForFollowUp = false;
       ctx.session.followUpType = null;
     }

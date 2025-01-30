@@ -9,6 +9,7 @@ const analyzer = new Analyzer("English", stemmer, "afinn");
  * @param {string} text - The text to analyze.
  * @returns {object} - Sentiment analysis result with score and label.
  */
+
 const analyzeSentiment = (text) => {
   try {
     const tokenizer = new natural.WordTokenizer();
