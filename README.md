@@ -1,8 +1,8 @@
-# **AI-Powered Telegram Chatbot 🤖🚀**  
+# **AI-Powered Telegram Chatbot**  
 
 A smart, AI-driven Telegram bot powered by **Google Gemini API** for intelligent conversations, **MongoDB** for efficient data storage, and **Sentiment Analysis** for interactive responses.  
 
-## **🚀 Features**  
+## **Features**  
 
 ✅ **User Registration** – Automatically saves user details and phone numbers in **MongoDB**.  
 ✅ **Gemini AI Chat** – Generates intelligent responses with **chat history tracking**.  
@@ -13,7 +13,7 @@ A smart, AI-driven Telegram bot powered by **Google Gemini API** for intelligent
 
 ---
 
-## **🛠️ Tech Stack**  
+## **Tech Stack**  
 
 - **Node.js** – Backend framework  
 - **Express.js** – Server-side framework  
@@ -24,7 +24,7 @@ A smart, AI-driven Telegram bot powered by **Google Gemini API** for intelligent
 
 ---
 
-## **📦 Installation & Setup**  
+## **Installation & Setup**  
 
 1️⃣ **Clone the Repository:**  
 ```sh
@@ -52,7 +52,7 @@ node server.js
 
 ---
 
-## **📌 Usage**  
+## **Usage**  
 
 - Start the bot using `/start`.  
 - Send messages, images, or PDFs for **AI-based responses**.  
@@ -61,15 +61,15 @@ node server.js
 
 ---
 
-## **💡 Future Enhancements**  
+## **Future Enhancements**  
 
-- 🏆 **Voice Command Support**  
-- 🔗 **Integration with Other APIs (e.g., News, Weather)**  
-- 📊 **Dashboard for Chat Analysis**  
+- **Voice Command Support**  
+- **Integration with Other APIs (e.g., News, Weather)**  
+- **Dashboard for Chat Analysis**  
 
 ---
 
-## **🤝 Contributing**  
+## **Contributing**  
 
 1. **Fork** the repository  
 2. **Create** a new branch (`git checkout -b feature-branch`)  
